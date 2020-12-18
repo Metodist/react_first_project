@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../mage.png";
+import logo from "../../mage.png";
 import style from './Header.module.css';
 
 
