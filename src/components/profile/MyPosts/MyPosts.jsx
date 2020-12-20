@@ -6,8 +6,8 @@ const MyPosts = () => {
     return <div>
         <textarea></textarea>
         <button>Add Post</button>
-        <Post/>
-        <Post/>
+        <Post message='привет как дела' like='4'/>
+        <Post message='Это мой первый пост' like='45'/>
     </div>
 }
 
