@@ -4,19 +4,19 @@ import style from './Navigation.module.css';
 const Nav = () =>{
     return <nav className={style.nav}>
                 <div className={`${style.item} ${style.active}`}>
-                    <a>Profiles</a>
+                    <a href='profile'>Profiles</a>
                 </div>
                 <div className={style.item}>
-                    <a>Messages</a>
+                    <a href='message'>Messages</a>
                 </div>
                 <div className={style.item}>
-                    <a>News</a>
+                    <a href = 'news'>News</a>
                 </div>
                 <div className={style.item}>
-                    <a>Music</a>
+                    <a href = 'music'>Music</a>
                 </div>
                 <div className={style.item}>
-                    <a>Settings</a>
+                    <a href = 'setting'>Settings</a>
                 </div>
             </nav>
 }
